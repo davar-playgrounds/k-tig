@@ -60,6 +60,6 @@ services:
             restart_policy:
                 condition: on-failure
                 delay: 5s
-                max_attempts: 3
+                max_attempts: 6
         volumes:
             - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
