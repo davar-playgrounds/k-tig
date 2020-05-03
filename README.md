@@ -1,6 +1,6 @@
 # K-TIG Kafka, Telegraf, InfluxDB and Grafana playground
 
-Deploy the Docker stacj
+Deploy the Docker stack
 
     docker stack deploy -c docker-compose.yml <stack_name>
 
